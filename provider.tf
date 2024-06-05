@@ -5,7 +5,9 @@ terraform {
       version = "5.48.0"
     }
   }
+  #adding remote backend 
   backend s3{
+
   }
 }
 
